@@ -1,0 +1,38 @@
+class School
+{
+void c()
+{
+    System.out.println("Classes");
+}
+void p()
+{
+    System.out.println("playground");
+}
+
+    
+}
+class College extends School
+{
+    void S()
+    {
+        System.out.println("Systems");
+    }
+    void Int()
+    {
+        System.out.println(124);
+    }
+   
+}
+public class Inheritance1 
+{
+    public static void main(String[] args) 
+    {
+        College obj= new College();
+        obj.S();
+        obj.Int();
+        obj.c();
+        obj.p();
+      //  System.out.println(obj);
+
+    }
+}

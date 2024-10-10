@@ -1,0 +1,33 @@
+class Cricket
+{
+    void runs()
+    {
+        System.out.println("common for all formate");
+    }
+}
+class Test extends Cricket
+{
+    void runs()
+    {
+        System.out.println("5 days match");
+    }
+}
+class Odi extends Cricket
+{
+    void runs()
+    {
+        System.out.println("white ball");
+    }
+}
+public class Polymerism 
+{
+    public static void main(String[] args) 
+    {
+
+        Cricket c;
+        c = new Test();
+        c.runs();
+        c = new Odi();
+        c.runs();
+    }
+}
